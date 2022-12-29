@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		7E3E42B72955EC8600426DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E42B62955EC8600426DBF /* AppDelegate.swift */; };
 		7E3E42B92955EC8600426DBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E42B82955EC8600426DBF /* SceneDelegate.swift */; };
-		7E3E42BB2955EC8600426DBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E42BA2955EC8600426DBF /* ViewController.swift */; };
 		7E3E42BE2955EC8600426DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3E42BC2955EC8600426DBF /* Main.storyboard */; };
 		7E3E42C02955EC8800426DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3E42BF2955EC8800426DBF /* Assets.xcassets */; };
 		7E3E42C32955EC8800426DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3E42C12955EC8800426DBF /* LaunchScreen.storyboard */; };
+		7E3E42CE2955F12D00426DBF /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E42CD2955F12D00426DBF /* NewsTableViewController.swift */; };
+		7E3E42D12955F27500426DBF /* UIColor+CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E42D02955F27500426DBF /* UIColor+CustomColor.swift */; };
+		7E3E42D42955F51500426DBF /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E42D32955F51500426DBF /* Article.swift */; };
+		7E3E42D72955FA2E00426DBF /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7E3E42D62955FA2E00426DBF /* RxCocoa */; };
+		7E3E42D92955FA2E00426DBF /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7E3E42D82955FA2E00426DBF /* RxSwift */; };
+		7E3E42DC2955FAE800426DBF /* URLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E42DB2955FAE800426DBF /* URLRequest+Extensions.swift */; };
+		7E3E42DF295605BF00426DBF /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E42DE295605BF00426DBF /* ArticleViewModel.swift */; };
+		7E3E42E32956092600426DBF /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E42E22956092600426DBF /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E3E42B32955EC8600426DBF /* NewsMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3E42B62955EC8600426DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E3E42B82955EC8600426DBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7E3E42BA2955EC8600426DBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7E3E42BD2955EC8600426DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E3E42BF2955EC8800426DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E3E42C22955EC8800426DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E3E42C42955EC8800426DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3E42CD2955F12D00426DBF /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		7E3E42D02955F27500426DBF /* UIColor+CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColor.swift"; sourceTree = "<group>"; };
+		7E3E42D32955F51500426DBF /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		7E3E42DB2955FAE800426DBF /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
+		7E3E42DE295605BF00426DBF /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		7E3E42E22956092600426DBF /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E3E42D92955FA2E00426DBF /* RxSwift in Frameworks */,
+				7E3E42D72955FA2E00426DBF /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +70,76 @@
 		7E3E42B52955EC8600426DBF /* NewsMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				7E3E42E0295608C700426DBF /* View */,
+				7E3E42DD295605A300426DBF /* ViewModel */,
+				7E3E42DA2955FABE00426DBF /* Extensions */,
+				7E3E42D22955F4F600426DBF /* Models */,
+				7E3E42C42955EC8800426DBF /* Info.plist */,
 				7E3E42B62955EC8600426DBF /* AppDelegate.swift */,
 				7E3E42B82955EC8600426DBF /* SceneDelegate.swift */,
-				7E3E42BA2955EC8600426DBF /* ViewController.swift */,
-				7E3E42BC2955EC8600426DBF /* Main.storyboard */,
 				7E3E42BF2955EC8800426DBF /* Assets.xcassets */,
+				7E3E42CA2955ED3B00426DBF /* Controllers */,
 				7E3E42C12955EC8800426DBF /* LaunchScreen.storyboard */,
-				7E3E42C42955EC8800426DBF /* Info.plist */,
+				7E3E42BC2955EC8600426DBF /* Main.storyboard */,
+				7E3E42CF2955F24E00426DBF /* util */,
 			);
 			path = NewsMVVM;
+			sourceTree = "<group>";
+		};
+		7E3E42CA2955ED3B00426DBF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E42CD2955F12D00426DBF /* NewsTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7E3E42CF2955F24E00426DBF /* util */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E42D02955F27500426DBF /* UIColor+CustomColor.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		7E3E42D22955F4F600426DBF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E42D32955F51500426DBF /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7E3E42DA2955FABE00426DBF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E42DB2955FAE800426DBF /* URLRequest+Extensions.swift */,
+			);
+			path = "\U0016Extensions";
+			sourceTree = "<group>";
+		};
+		7E3E42DD295605A300426DBF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E42DE295605BF00426DBF /* ArticleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7E3E42E0295608C700426DBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E42E12956090900426DBF /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E3E42E12956090900426DBF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E42E22956092600426DBF /* ArticleTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +158,10 @@
 			dependencies = (
 			);
 			name = NewsMVVM;
+			packageProductDependencies = (
+				7E3E42D62955FA2E00426DBF /* RxCocoa */,
+				7E3E42D82955FA2E00426DBF /* RxSwift */,
+			);
 			productName = NewsMVVM;
 			productReference = 7E3E42B32955EC8600426DBF /* NewsMVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +190,9 @@
 				Base,
 			);
 			mainGroup = 7E3E42AA2955EC8600426DBF;
+			packageReferences = (
+				7E3E42D52955FA2E00426DBF /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 7E3E42B42955EC8600426DBF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +220,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E3E42BB2955EC8600426DBF /* ViewController.swift in Sources */,
 				7E3E42B72955EC8600426DBF /* AppDelegate.swift in Sources */,
 				7E3E42B92955EC8600426DBF /* SceneDelegate.swift in Sources */,
+				7E3E42D12955F27500426DBF /* UIColor+CustomColor.swift in Sources */,
+				7E3E42DC2955FAE800426DBF /* URLRequest+Extensions.swift in Sources */,
+				7E3E42E32956092600426DBF /* ArticleTableViewCell.swift in Sources */,
+				7E3E42CE2955F12D00426DBF /* NewsTableViewController.swift in Sources */,
+				7E3E42DF295605BF00426DBF /* ArticleViewModel.swift in Sources */,
+				7E3E42D42955F51500426DBF /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +443,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7E3E42D52955FA2E00426DBF /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E3E42D62955FA2E00426DBF /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E3E42D52955FA2E00426DBF /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		7E3E42D82955FA2E00426DBF /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E3E42D52955FA2E00426DBF /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7E3E42AB2955EC8600426DBF /* Project object */;
 }
